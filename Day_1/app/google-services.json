@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "757565273111",
+    "project_id": "fir-1-90c48",
+    "storage_bucket": "fir-1-90c48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757565273111:android:d9e76d819673d8686d5852",
+        "android_client_info": {
+          "package_name": "com.wira_sukma_saputra.firebase_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvW6rq4OdnySdjV70hcr2ZCUZdVkBnurM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
