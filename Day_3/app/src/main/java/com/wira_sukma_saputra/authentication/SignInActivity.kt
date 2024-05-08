@@ -29,11 +29,12 @@ class SignInActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         firebaseAuth = FirebaseAuth.getInstance()
-        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-            .requestIdToken(getString(R.string.google))
-            .requestEmail()
-            .build()
-        googleSignInClient = GoogleSignIn.getClient(this, gso)
+//
+//        val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+//            .requestIdToken(getString(R.string.google))
+//            .requestEmail()
+//            .build()
+//        googleSignInClient = GoogleSignIn.getClient(this, gso)
 
         binding.textView.setOnClickListener{
             val intent = Intent(this, SignUpActivity::class.java)
@@ -60,50 +61,50 @@ class SignInActivity : AppCompatActivity() {
         }
     }
 
-    private fun signInWithGoogle()
-    {
-        val signInIntent = googleSignInClient.signInIntent
-        launcher.launch(signInIntent)
-    }
-
-    private val launcher = registerForActivityResult(ActivityResultContracts.StartActivityForResult())
-    {result->
-        if (result.resultCode == Activity.RESULT_OK)
-        {
-            val task = GoogleSignIn.getSignedInAccountFromIntent(result.data)
-            handleResults(task)
-        }
-    }
-
-    private fun handleResults(task: Task<GoogleSignInAccount>) {
-        if (task.isSuccessful)
-        {
-            val account:GoogleSignInAccount? = task.result
-            if (account!=null) {
-                updateUI(account)
-            }
-        }
-        else {
-            showToast(this, "Sign Gagal, Coba Lagi")
-        }
-    }
-
-    private fun updateUI(account: GoogleSignInAccount) {
-        showProgessBar()
-        val credential = GoogleAuthProvider.getCredential(account.idToken, null)
-        firebaseAuth.signInWithCredential(credential).addOnCompleteListener{
-            if (task.isSuccessful)
-            {
-                val account:GoogleSignInAccount? = task.result
-                if (account!=null) {
-                    updateUI(account)
-                }
-            }
-            else {
-                showToast(this, "Sign Gagal, Coba Lagi")
-            }
-        }
-    }
+//    private fun signInWithGoogle()
+//    {
+//        val signInIntent = googleSignInClient.signInIntent
+//        launcher.launch(signInIntent)
+//    }
+//
+//    private val launcher = registerForActivityResult(ActivityResultContracts.StartActivityForResult())
+//    {result->
+//        if (result.resultCode == Activity.RESULT_OK)
+//        {
+//            val task = GoogleSignIn.getSignedInAccountFromIntent(result.data)
+//            handleResults(task)
+//        }
+//    }
+//
+//    private fun handleResults(task: Task<GoogleSignInAccount>) {
+//        if (task.isSuccessful)
+//        {
+//            val account:GoogleSignInAccount? = task.result
+//            if (account!=null) {
+//                updateUI(account)
+//            }
+//        }
+//        else {
+//            showToast(this, "Sign Gagal, Coba Lagi")
+//        }
+//    }
+//
+//    private fun updateUI(account: GoogleSignInAccount) {
+//        showProgessBar()
+//        val credential = GoogleAuthProvider.getCredential(account.idToken, null)
+//        firebaseAuth.signInWithCredential(credential).addOnCompleteListener{
+//            if (task.isSuccessful)
+//            {
+//                val account:GoogleSignInAccount? = task.result
+//                if (account!=null) {
+//                    updateUI(account)
+//                }
+//            }
+//            else {
+//                showToast(this, "Sign Gagal, Coba Lagi")
+//            }
+//        }
+//    }
 
 
 //    override fun onStart() {
