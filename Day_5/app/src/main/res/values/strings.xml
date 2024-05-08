@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BotanikaCare</string>
+    <string name="deskripsi">Aplikasi ini berisi database tanaman obat Indonesia yang lengkap dengan informasi manfaat, cara penggunaan, dan potensi efek sampingnya.</string>
+    <string name="create">Create By Wira Sukma Saputra</string>
 </resources>
