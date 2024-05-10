@@ -128,29 +128,13 @@
         android:layout_below="@id/or">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/loginButton"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:paddingStart="20dp"
-            android:drawableLeft="@drawable/logosfacebook"
-            android:background="@drawable/shape_2"
-            android:text="Login"
-            android:onClick="callLogin"
-            android:transitionName="transition_login"
-            android:layout_marginRight="10dp"
-            android:layout_weight="1">
-
-        </androidx.appcompat.widget.AppCompatButton>
-
-        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/signupButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:paddingStart="20dp"
             android:drawableLeft="@drawable/devicongoogle"
-            android:text="Login"
-            android:background="@drawable/shape_2"
-            android:layout_marginLeft="5dp"
+            android:text="Sign Up with google"
+            android:background="@drawable/rounded_button_background"
             android:layout_weight="1">
 
         </androidx.appcompat.widget.AppCompatButton>
