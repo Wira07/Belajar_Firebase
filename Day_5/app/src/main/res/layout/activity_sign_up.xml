@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/Gambar"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:src="@drawable/botanika"
         android:layout_centerHorizontal="true"/>
 
@@ -125,33 +125,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>
 
-    <LinearLayout
-        android:id="@+id/bundle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/or">
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/signupButton"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:paddingStart="20dp"
-            android:drawableLeft="@drawable/devicongoogle"
-            android:text="Sign Up with google"
-            android:background="@drawable/rounded_button_background"
-            android:layout_marginLeft="5dp"
-            android:layout_weight="1"/>
-
-    </LinearLayout>
 
     <TextView
         android:id="@+id/have"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/have"
-        android:layout_below="@id/bundle"
+        android:layout_below="@id/or"
         android:layout_marginTop="30dp"
         android:fontFamily="@font/poppins_regular"
         android:layout_centerHorizontal="true"/>
@@ -169,7 +150,7 @@
         android:layout_width="200dp"
         android:layout_height="30dp"
         android:layout_below="@id/baru"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="160dp"
         android:background="@drawable/shape_3"
         android:layout_centerHorizontal="true"/>
 

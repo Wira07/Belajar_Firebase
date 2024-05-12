@@ -2,6 +2,7 @@
     <string name="app_name">BotanikaCare</string>
     <string name="deskripsi">Aplikasi ini berisi database tanaman obat Indonesia yang lengkap dengan informasi manfaat, cara penggunaan, dan potensi efek sampingnya.</string>
     <string name="create">Create By Wira Sukma Saputra</string>
+    <string name="name">Wira Sukma Saputra</string>
     <string name="have">Dont have an account yet?</string>
     <string name="account">Create an account</string>
     <string name="riset">Reset Password</string>
@@ -10,5 +11,15 @@
     <string name="copy">Your remember your Password?</string>
     <string name="login">login</string>
     <string name="Forget">Forget Password?</string>
+    <string name="map">Map</string>
+    <string name="email">wiralodrasaputra07@gmail.com</string>
+    <string name="theme">Theme</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="kampus">Kampus</string>
+    <string name="uniku">Universitas Kuningan</string>
+    <string name="Jurusan">Jurusan\n</string>
+    <string name="teknik">Teknik Informatika</string>
+    <string name="update">Update</string>
+    <string name="NIM">20210810075</string>
 
 </resources>
