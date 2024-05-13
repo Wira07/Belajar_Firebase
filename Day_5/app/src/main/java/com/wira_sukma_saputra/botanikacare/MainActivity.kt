@@ -8,7 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.auth
+import com.wira_sukma_saputra.botanikacare.about.AboutActivity
 import com.wira_sukma_saputra.botanikacare.databinding.ActivityMainBinding
+import com.wira_sukma_saputra.botanikacare.splashscreen.GetStartedActivity
 
 
 class MainActivity : AppCompatActivity() {

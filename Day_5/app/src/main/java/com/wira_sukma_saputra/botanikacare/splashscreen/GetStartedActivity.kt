@@ -1,8 +1,9 @@
-package com.wira_sukma_saputra.botanikacare
+package com.wira_sukma_saputra.botanikacare.splashscreen
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.content.Intent
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.wira_sukma_saputra.botanikacare.authentication.SignInActivity
 import com.wira_sukma_saputra.botanikacare.databinding.ActivityGetstartedBinding
 
 class GetStartedActivity : AppCompatActivity() {

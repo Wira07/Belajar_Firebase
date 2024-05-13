@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="20dp"
     android:background="@color/whiteMuda"
-    tools:context=".GetStartedActivity">
+    tools:context=".splashscreen.GetStartedActivity">
 
     <ImageView
         android:id="@+id/Gambar"
