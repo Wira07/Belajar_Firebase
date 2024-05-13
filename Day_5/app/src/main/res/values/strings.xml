@@ -20,6 +20,7 @@
     <string name="Jurusan">Jurusan\n</string>
     <string name="teknik">Teknik Informatika</string>
     <string name="update">Update</string>
+    <string name="dark_mode">Dark Mode</string>
     <string name="NIM">20210810075</string>
 
 </resources>
