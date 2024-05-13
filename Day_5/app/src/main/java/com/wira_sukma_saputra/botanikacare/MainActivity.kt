@@ -11,6 +11,7 @@ import com.google.firebase.auth.auth
 import com.wira_sukma_saputra.botanikacare.about.AboutActivity
 import com.wira_sukma_saputra.botanikacare.databinding.ActivityMainBinding
 import com.wira_sukma_saputra.botanikacare.splashscreen.GetStartedActivity
+import com.wira_sukma_saputra.botanikacare.theme.ThemeActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -45,6 +46,10 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.action_list -> {
                 startActivity(Intent(this, MapsActivity::class.java))
+                return true
+            }
+            R.id.action_theme -> {
+                startActivity(Intent(this, ThemeActivity::class.java))
                 return true
             }
             else -> return super.onOptionsItemSelected(item)
