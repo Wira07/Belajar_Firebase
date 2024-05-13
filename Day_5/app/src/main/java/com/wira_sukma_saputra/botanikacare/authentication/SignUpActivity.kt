@@ -1,16 +1,14 @@
-package com.wira_sukma_saputra.botanikacare
+package com.wira_sukma_saputra.botanikacare.authentication
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Patterns
-import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.wira_sukma_saputra.botanikacare.databinding.ActivitySignUpBinding
-import com.google.android.material.textfield.TextInputEditText
-import com.google.firebase.auth.FirebaseUser
+import com.wira_sukma_saputra.botanikacare.BaseActivity
+import com.wira_sukma_saputra.botanikacare.MainActivity
 
 class SignUpActivity : BaseActivity() {
     private lateinit var binding: ActivitySignUpBinding
@@ -50,7 +48,7 @@ class SignUpActivity : BaseActivity() {
 //                        FireStoreClass().registerUser(userInfo)
                         showToast(this,"User Berhasil di buat")
                         hideProgressBar()
-                        startActivity(Intent(this,MainActivity::class.java))
+                        startActivity(Intent(this, MainActivity::class.java))
                         finish()
                     }
                     showToast(this,"Oops! Something went wrong")

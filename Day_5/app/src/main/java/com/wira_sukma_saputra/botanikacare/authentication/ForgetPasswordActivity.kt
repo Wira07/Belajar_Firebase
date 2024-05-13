@@ -1,6 +1,5 @@
-package com.wira_sukma_saputra.botanikacare
+package com.wira_sukma_saputra.botanikacare.authentication
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Patterns
@@ -8,6 +7,7 @@ import android.view.View
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+import com.wira_sukma_saputra.botanikacare.BaseActivity
 import com.wira_sukma_saputra.botanikacare.databinding.ActivityForgetPasswordBinding
 
 class ForgetPasswordActivity : BaseActivity() {
