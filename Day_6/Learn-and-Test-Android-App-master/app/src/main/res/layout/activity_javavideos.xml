@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".javavideos">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java Videos"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+    </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/v1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="Code With Harry "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:id="@+id/v2"
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="Apna College "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:id="@+id/v3"
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="Smart Programming "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:id="@+id/v4"
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="Neso Academy "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:id="@+id/v5"
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="Kunal Kushwaha "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+
+
+    </LinearLayout>
+
+</ScrollView>

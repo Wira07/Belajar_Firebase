@@ -1,0 +1,11 @@
+<!-- res/drawable/top_blue_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#D9D9D9"
+                android:endColor="#FFFFFF"
+                android:angle="270"/>
+        </shape>
+    </item>
+</layer-list>

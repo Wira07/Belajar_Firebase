@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".javatutorial">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardMaxElevation="12dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Java Topics"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+        </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:paddingBottom="10dp"
+                android:text="What is Java
+                       History of Java
+                Features of Java
+                C++ vs Java        "
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                ></TextView>
+
+
+
+
+
+            <TextView
+                android:paddingTop="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:paddingBottom="10dp"
+                android:text="Installation Steps- How to Set Path  "
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                ></TextView>
+
+
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="What is JDK, JRE and JVM  "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="Java Variables, Data types, Keywords and Operators "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="Difference between Java and C++  "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="Control Statements:
+if, if-else, Switch, for loop, while, do-while loop, break and continue "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text=" java Comments "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="OOPs Concepts- Objects and Classes"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text=" static and this keyword "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text=" java Inheritance and Aggregation "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text=" Polymorphism- Method Overloading and Overriding "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="super and final keyword "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text=" Abstraction class and Interface "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text=" Encapsulation-Package, Access modifiers "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="java Arrays"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text="java Functions- java String, Regex"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:paddingTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:text=" Exception Handling and Multithreading "
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            ></TextView>
+
+
+
+
+        </LinearLayout>
+
+
+
+</ScrollView>

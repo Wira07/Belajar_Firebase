@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "314042488755",
+    "project_id": "fir-firebase-5e5ca",
+    "storage_bucket": "fir-firebase-5e5ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314042488755:android:da6cd93d7d10a765fb9dc6",
+        "android_client_info": {
+          "package_name": "com.wira_sukma_saputra.botanikacare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlxABon8ag7mhVZ7BF72JY0yaOFxu4rUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<!-- res/values/colors.xml -->
+<resources>
+    <color name="primary">#9DAF89</color>
+    <color name="primarydark">#9DAF89</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#888888</color>
+    <color name="abu">#F3F3F3</color>
+</resources>

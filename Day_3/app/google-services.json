@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "363250356229",
+    "project_id": "authentication-dd695",
+    "storage_bucket": "authentication-dd695.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363250356229:android:00d30daae7d4f2b169cc6c",
+        "android_client_info": {
+          "package_name": "com.wira_sukma_saputra.authentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbuR4zwww6D_TnqQOEm27uy6w8-ULO3mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/img"
+    android:layout_height="match_parent"
+
+
+    tools:context=".javainterview">
+
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:text="Java Interview Q/A"
+                android:paddingBottom="30dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"></TextView>
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="Explain public static void main(String args[]) in Java."
+                ></TextView>
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="What are wrapper classes in Java?"
+                ></TextView>
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="What are constructors in Java?"
+                ></TextView>
+            <TextView
+                android:id="@+id/tv14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="When can you use the super keyword?"
+                ></TextView>
+            <TextView
+                android:id="@+id/tv15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="What is a package in Java? List down various advantages of packages."
+                ></TextView>
+
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="Why is Java a platform independent language?"
+                ></TextView>
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="List the features of the Java Programming language?"
+                ></TextView>
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="How is Java different from C++?"
+                ></TextView>
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="What do you mean by data encapsulation?"
+                ></TextView>
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="What are the default values assigned to variables and instances in java?"
+                ></TextView>
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="What is JIT compiler?"
+                ></TextView>
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="Explain concept of constructor overloading"
+                ></TextView>
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="Define Copy constructor in java."
+                ></TextView>
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="Explain the use of final keyword."
+                ></TextView>
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="@color/black"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:text="Can the main method be Overloaded?"
+                ></TextView>
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

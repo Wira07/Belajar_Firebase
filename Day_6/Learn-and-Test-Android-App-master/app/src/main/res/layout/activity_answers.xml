@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9D0EF"
+    android:orientation="vertical"
+
+    tools:context=".answers">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation ="vertical" >
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Quiz Answers"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Number of primitive data types in Java are 8"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Find the output of the following code: int Integer = 24; char String  = ‘I’; System.out.print(Integer); System.out.print(String); Answer:24 I"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="When an array is passed to a method, what does the method receive? Answer:reference of array"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Identify the corrected definition of a package. Answer:Collection of clasess and interfaces"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Which one of the following is not a Java feature. Answer:Use of pointers"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="What is the extension of java code files? Answer:.java"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Which of the following is a type of polymorphism in Java Programming? Answer:Compile time polymorphism"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Which exception is thrown when java is out of memory. Answer:OutOfMemoryError"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Which of these are selection statements in Java? Answer:if()"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Which one of the following is not an access modifier? Answer:Void"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Excepted created by try block is caught in which block. Answer:catch"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="_____ is used to find and fix bugs in the Java programs. Answer:JDB"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Which of the following is an immediate subclass of the Panel class? Answer:Applet class"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Which option is false about the final keyword? Answer:A final class cannot extend other classes"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Which keyword is used for accessing the features of a package? Answer:import"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="In java, jar stands for_____. Answer:none"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Which statement about a valid .java file is true? Answer:It may define at most one public class"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Which of the following declarations does not compile? Answer:double num1, int num2 = 0;"
+            android:textColor="@color/black"/>
+        <TextView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="What is true of the finalize() method? Answer:It may be called zero or one times"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
